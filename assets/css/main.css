@@ -1,0 +1,40 @@
+body {
+  font-family: Love Ya Like a Sister;
+  font-size: 21px;
+  background-color: #000;
+}
+
+.row {
+  font-family: Josefin Slab;
+  color: #fff;
+}
+a {
+  color: #000;
+}
+.nav {
+  font-size: 30px;
+  background: #fff;
+  padding: 2%;
+}
+
+.mb {
+  margin-bottom: 4%;
+}
+
+.btn {
+  font-size: 21px;
+  border-radius: 10px;
+  background-color: rgba(87, 82, 83, 0.75);
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+footer {
+  background: #fff;
+  color: #000;
+  padding: 2%;
+}
