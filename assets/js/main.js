@@ -31,16 +31,16 @@ function verificaClick(event) {
 
 function ocultar(obj) {
   if (obj.id == 1) {
-    textoIzq.style.display = "none";
+    textoIzq.style.visibility = "hidden";
   } else if (obj.id == 2) {
-    textoDer.style.display = "none";
+    textoDer.style.visibility = "hidden";
   }
 }
 // Función para mostrar el texto
 function mostrar(obj) {
   if (obj.id == 1) {
     textoIzq.style.visibility = "visible"
-  } else if (obj.id == 2) { //Caso boton Exhibición
+  } else if (obj.id == 2) {
     textoDer.style.visibility = "visible";
   }
 }
